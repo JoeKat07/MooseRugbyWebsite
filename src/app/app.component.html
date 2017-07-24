@@ -1,0 +1,147 @@
+<div class="container">
+
+  <!--this is the title for the website-->
+  <div>
+    <h1 class="text-center">Elkhart Moose Rugby Club</h1>
+  </div>
+  <!--this is for navigation through various tabs to display content-->
+  <div class="tabbable">
+    <!--tabs to select-->
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+      <li><a href="#pictures" data-toggle="tab">Pictures</a></li>
+      <li><a href="#sponsors" data-toggle="tab">Sponsors</a></li>
+      <li><a href="#contactUs" data-toggle="tab">Contact Us</a></li>
+      <li><a href="#roster" data-toggle="tab">Roster</a></li>
+
+    </ul>
+
+
+
+
+    <!--content to be displayed inside the tabs-->
+    <div class="tab-content">
+      <div class="tab-pane active" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3 col-lg-5">Welcome to the Elkhart Moose Rugby Football Club website! This website is currently under development and will
+              continue to have content added to it as we go.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane" id="pictures">
+        <!--carousel that displays various pictures-->
+        <div id="pictureCarousel" class="carousel slide" data-ride="carousel" style="width:500px; height:400px;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#pictureCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#pictureCarousel" data-slide-to="1"></li>
+            <li data-target="#pictureCarousel" data-slide-to="2"></li>
+            <li data-target="#pictureCarousel" data-slide-to="3"></li>
+            <li data-target="#pictureCarousel" data-slide-to="4"></li>
+          </ol>
+
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/TeamPhoto2015.jpg" alt="Team Photo 2015">
+            </div>
+
+            <div class="item">
+              <img src="assets/rugby1.jpg" alt="rugby1">
+            </div>
+
+            <div class="item">
+              <img src="assets/rugby2.jpg" alt="rugby2">
+            </div>
+
+            <div class="item">
+              <img src="assets/rugby3.jpg" alt="rugby3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane" id="sponsors">
+        The Club is currently sponsored by Smokestack Brewhouse!
+      </div>
+
+
+      <div class="tab-pane" id="contactUs">
+        <div class="container">
+          <div class="row">
+            <h4 class="col-md-2"><u>Club Position</u></h4>
+            <h4 class="col-md-2"><u>Name</u></h4>
+            <h4 class="col-md-3"><u>Email</u></h4>
+            <h4 class="col-md-2"><u>Phone #</u></h4>
+          </div>
+          <div class="row">
+            <h5 class="col-md-2">President</h5>
+            <h5 class="col-md-2">Kyle George</h5>
+            <h5 class="col-md-3">KG@google.com</h5>
+            <h5 class="col-md-2">574-999-9999</h5>
+          </div>
+          <div class="row">
+            <h5 class="col-md-2">Vice President</h5>
+            <h5 class="col-md-2">Doug Kettlehut</h5>
+            <h5 class="col-md-3">DK@google.com</h5>
+            <h5 class="col-md-2">574-888-8888</h5>
+          </div>
+          <div class="row">
+            <h5 class="col-md-2">Treasurer</h5>
+            <h5 class="col-md-2">Joe Katuzienski</h5>
+            <h5 class="col-md-3">joekat1993@google.com</h5>
+            <h5 class="col-md-2">574-777-7777</h5>
+          </div>
+          <div class="row">
+            <h5 class="col-md-2">Media Chair</h5>
+            <h5 class="col-md-2">Ed Reyes</h5>
+            <h5 class="col-md-3">ER@google.com</h5>
+            <h5 class="col-md-2">574-666-6666</h5>
+          </div>
+          <div class="row">
+            <h5 class="col-md-2">Social Chair</h5>
+            <h5 class="col-md-2">Kyle Kubiak</h5>
+            <h5 class="col-md-3">KK@google.com</h5>
+            <h5 class="col-md-2">574-555-5555</h5>
+          </div>
+          <!--<div class="row" *ngFor="let person of people; let i=index">-->
+        </div>
+      </div>
+      <!--end of tabs-->
+
+
+      <div class="tab-pane" id="roster">
+        <div class="row" *ngFor="let r of roster; let i = index">
+          <app-roster [roster]="r"></app-roster>
+          
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <h3>Schedule</h3>
+      <dl>
+        <dt>September</dt>
+        <dd>- 9th @ Ft. Wayne</dd>
+        <dd>- 16th vs Columbus</dd>
+        <dd>- 23rd vs White River</dd>
+        <dd>- 30th Bye</dd>
+        <dt>October</dt>
+        <dd>- 7th vs Ft. Wayne</dd>
+        <dd>- 14th @ Columbus</dd>
+        <dd>- 21st @ White River</dd>
+        <dd>- 28th Play-In for Playoffs</dd>
+        <dt>November</dt>
+        <dd>-- PLAYOFFS --</dd>
+      </dl>
+    </div>
+  </div>
+</div>
