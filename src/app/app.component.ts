@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Roster } from './app.class-roster';
+import { Roster } from './app.data-types';
 import { DataService } from './data.service';
 
 @Component({

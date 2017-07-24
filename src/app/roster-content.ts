@@ -20,28 +20,3 @@ export const ROSTER: Roster[]= [
     {name:'Derrick Yeoman', position:'10', pictureURL:"", dateJoined:""},
     {name:'Westley Smith Jr.', position:'13', pictureURL:"", dateJoined:""},
 ]
-// name = ['Kyle George',
-//             'Doug Kettlehut',
-//             'Kyle Kubiak',
-//             'Joe Katuzienski',
-//             'Ed Reyes',
-//             'Pete Gjukis',
-//             'Adrian Sharkey',
-//             'Joe Tidd',
-//             'Brennan Diltz',
-//             'Justin Biggs',
-//             'Mike Voll',
-//             'Adam Jolly',
-//             'John Edwards',
-//             'Ben Eich',
-//             'Drunk Rick',
-//             'Jake Farber',
-//             'Derrick Yeoman',
-//             'Westley Smith Jr.'
-//            ]
-//    
-//                 '12',
-//                 '7',
-//                 '10',
-//                 '13',
-//                ]      
