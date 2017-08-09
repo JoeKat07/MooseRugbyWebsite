@@ -4,7 +4,7 @@ export const ROSTER: Roster[]= [
     {name:'Kyle George', position:'6', pictureURL:"", dateJoined:"", quote:""},
     {name:'Doug Kettlehut', position:'1', pictureURL:"", dateJoined:"", quote:""},
     {name:'Kyle Kubiak', position:'3', pictureURL:"", dateJoined:"", quote:""},
-    {name:'Joe Katuzienski', position:'12', pictureURL:"", dateJoined:"6/2017", quote:""},
+    {name:'Joe Katuzienski', position:'12', pictureURL:"", dateJoined:"06/2017", quote:""},
     {name:'Ed Reyes', position:'4', pictureURL:"", dateJoined:"", quote:""},
     {name:'Pete Gjukis', position:'2', pictureURL:"", dateJoined:"", quote:""},
     {name:'Adrian Sharkey', position:'5', pictureURL:"", dateJoined:"", quote:""},
@@ -19,4 +19,5 @@ export const ROSTER: Roster[]= [
     {name:'Jake Farber', position:'7', pictureURL:"", dateJoined:"", quote:""},
     {name:'Derrick Yeoman', position:'10', pictureURL:"", dateJoined:"", quote:""},
     {name:'Westley Smith Jr.', position:'13', pictureURL:"", dateJoined:"", quote:""},
+    {name:'Will Mishler', position:'Coach', pictureURL:"", dateJoined:"01/1416", quote:""},
 ]
