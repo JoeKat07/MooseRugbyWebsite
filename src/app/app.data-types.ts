@@ -3,4 +3,5 @@ export class Roster {
         position:string;
         pictureURL:string;
         dateJoined:string;
+        quote:string;
 }
