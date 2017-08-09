@@ -20,4 +20,5 @@ export const ROSTER: Roster[]= [
     {name:'Derrick Yeoman', position:'10', pictureURL:"", dateJoined:"", quote:""},
     {name:'Westley Smith Jr.', position:'13', pictureURL:"", dateJoined:"", quote:""},
     {name:'Will Mishler', position:'Coach', pictureURL:"", dateJoined:"01/1416", quote:""},
+    {name:'Brandon Stahl', position:'7', pictureURL:"", dateJoined:"06/2014", quote:"I love being physical I love how the game of Rugby's continuous I just love all around rugby best sport ever played"},
 ]

@@ -247,20 +247,25 @@
 
       <div class="tab-pane" id="roster">
         <div class = "container">
-          <h1>  
+          <!-- <h1>  
             This page is currently under development
-          </h1>
-          <!-- <table class = "table-bordered">
+          </h1> -->
+          <div class="table-responsive">
+           <table class = "table-bordered">
             <thead>
               <th>Player</th>
               <th>Position</th>
             </thead>
             <tbody>
-                <div class="row" *ngFor="let r of roster; let i = index">
+                 <tr *ngFor="let r of roster; let i = index">
                   <app-roster [roster]="r"></app-roster>
-                </div>
+                </tr> 
+                <!-- <tr><td>Chris</td><td>6</td></tr>
+                <tr><td>Chris</td><td>6</td></tr>
+                <tr><td>Chris</td><td>6</td></tr> -->
             </tbody>
-          </table> -->
+           </table> 
+          </div>
       </div>
     </div>
 
@@ -273,6 +278,9 @@
                 <tr><li><a href="https://www.facebook.com/penngirlsrugby/">Penn High School Girls Rugby Facebook Page</a></li></tr>
                 <tr><li><a href="http://www.rugbyindiana.com/page/show/2953839-penn-boys">Penn High School Boys Rugby Indiana</a></li></tr>
                 <tr><li><a href="https://www.facebook.com/pennrugby.nation">Penn High School Boys Rugby Facebook Page</a></li></tr>
+                <tr><li><a href="http://www.rugbyindiana.com/page/show/945007-marian-hs-boys">Marian Boys Rugby Indiana</a></li></tr>
+                <tr><li><a href="http://www.rugbyindiana.com/page/show/946142-south-bend-hs-girls">South Bend Mercenaries High School Girls Rugby Indiana</a></li></tr>
+                <tr><li><a href="https://www.facebook.com/SOUTH-BEND-MERCENARIES-RUGBY-CLUB-51747782908/">South Bend Mercenaries High School Girls Rugby Facebook Page</a></li></tr>
                 <tr><li><a href="https://www.usarugby.org">USA Rugby</a></li></tr>
             </table>
         </div>
