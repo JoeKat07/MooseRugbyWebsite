@@ -11,7 +11,7 @@ export const ROSTER: Roster[]= [
     {name:'Joe Tidd', position:'6', pictureURL:"", dateJoined:"", quote:""},
     {name:'Brennan Diltz', position:'13', pictureURL:"", dateJoined:"", quote:""},
     {name:'Justin Biggs', position:'8', pictureURL:"", dateJoined:"", quote:""},
-    {name:'Mike Voll', position:'11', pictureURL:"", dateJoined:"", quote:""},
+    {name:'Mike Voll', position:'11', pictureURL:"", dateJoined:"08/2017", quote:"Amateur Rugger, Professional Drinker"},
     {name:'Adam Jolly', position:'15', pictureURL:"", dateJoined:"", quote:""},
     {name:'John Edwards', position:'14', pictureURL:"", dateJoined:"", quote:""},
     {name:'Ben Eich', position:'5', pictureURL:"", dateJoined:"", quote:""},
@@ -20,5 +20,6 @@ export const ROSTER: Roster[]= [
     {name:'Derrick Yeoman', position:'10', pictureURL:"", dateJoined:"", quote:""},
     {name:'Westley Smith Jr.', position:'13', pictureURL:"", dateJoined:"", quote:""},
     {name:'Will Mishler', position:'Coach', pictureURL:"", dateJoined:"01/1416", quote:""},
-    {name:'Brandon Stahl', position:'7', pictureURL:"", dateJoined:"06/2014", quote:"I love being physical I love how the game of Rugby's continuous I just love all around rugby best sport ever played"},
+    {name:'Brandon Stahl', position:'7', pictureURL:".\Brandonstahl Stahl.jpg", dateJoined:"06/2014", quote:"I love being physical I love how the game of Rugby's continuous I just love all around rugby best sport ever played"},
+    {name:'Shibli Moosa', position:'14', pictureURL:"", dateJoined:"01/1416", quote:"Go Springboks!"},
 ]
