@@ -24,5 +24,5 @@ export const ROSTER: Roster[]= [
     {name:'Shibli Moosa', position:'14', pictureURL:"", dateJoined:"01/1416", quote:"Go Springboks!"},
     {name:'Lee Kling', position:'1', pictureURL:"", dateJoined:"07/1996", quote:"I once was good"},
     {name:'Jason Pawlicki', position:'1', pictureURL:"assets/Jackson Pawlicki.JPG", dateJoined:"07/1996", quote:"I always wanted to be a back and kick the ball. I'm glad I was too fat for that. #ForwardLife "},
-    {name:'Alexander Dorrier', position:'10', pictureURL:"assets/Alex Dorrier", dateJoined:"08/2017", quote:"Penn HS, Davenport University, Moose Rugby, Indiana University, Chicago Lions Rugby Club"},
+    {name:'Alexander Dorrier', position:'10', pictureURL:"assets/Alex Dorrier.PNG", dateJoined:"08/2017", quote:"Penn HS, Davenport University, Moose Rugby, Indiana University, Chicago Lions Rugby Club"},
 ]
